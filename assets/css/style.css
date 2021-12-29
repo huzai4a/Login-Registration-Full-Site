@@ -1,0 +1,224 @@
+/*importing fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@600&display=swap');
+
+/*navbar start*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #5CDB95;
+    font-family: 'Lato', sans-serif;
+}
+input{
+  border: none;
+  box-shadow: none !important;
+}
+nav{
+    font-family: 'Poppins', sans-serif;
+    padding: 0px 20px;
+    background: #edf5e0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    color: #05396b;
+    text-decoration: none;
+}
+a:hover{
+    color: #001e3b;
+    text-decoration: none;
+}
+.menu li{
+    font-size: 18px;
+    padding: 15px 5px;
+}
+.menu li a{
+    display: block;
+}
+.logo{
+
+}
+.button.secondary{
+    border-bottom: 1px #05396b solid;
+}
+
+
+
+
+/*mobile menu*/
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.toggle{
+  order: 1;
+}
+.item.button{
+  order: 2;
+}
+.item{
+  width: 100%;
+  text-align: center;
+  order: 3;
+  display: none;
+}
+.item.active{
+  display: block;
+}
+.toggle{
+  cursor: pointer;
+}
+.bars{
+  background: #05396b;
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  width: 18px;
+  top: -5px;
+}
+.bars::before,.bars::after{
+  background: #05396b;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: absolute;
+  width: 18px;
+}
+.bars::before{
+  top: 5px;
+}
+.bars::after{
+  top: -5px;
+}
+
+
+
+
+
+
+/*tablet menu*/
+
+@media all and (min-width: 768px){
+  .menu{
+    justify-content: center;
+  }
+  .logo{
+    flex: 1;
+  }
+  .item.button{
+    width: auto;
+    order: 1;
+    display: block;
+  }
+  .toggle{
+    order: 2;
+  }
+  .button.secondary{
+    border: 0;
+  }
+  .button a{
+    text-decoration: none;
+    padding: 7px 15px;
+    background: #05396b;
+    color: #5CDB95;
+    border-radius: 50em;
+  }
+  .button.secondary a{
+    background: #5CDB95;
+    color: #05396b;
+  }
+  .button a:hover{
+    transition: all .25s;
+  }
+  .button:not(.secondary) a:hover{
+    background: #5CDB95;
+    color: #05396b;
+  }
+  .button.secondary a:hover{
+    background: #05396b;
+    color: #5CDB95;
+  }
+}
+
+
+
+
+
+/*desktop menu*/
+
+@media all and (min-width: 968px){
+  .item{
+    display: block;
+    width: auto;
+    order: 1;
+  }
+  .toggle{
+    display: none;
+  }
+  .logo{
+    order: 0;
+  }
+  .button{
+    order: 2;
+  }
+  .menu li{
+    padding: 15px 10px;
+  }
+  .menu li.button{
+    padding-right: 0;
+  }
+  nav{
+    padding: 0px 20px;
+  }
+}
+/*navbar end*/
+
+/*login and register button*/
+.log-reg-btn{
+  background: #05396b;
+  border: none;
+  color: #edf5e0;
+  width: 6em;
+}
+.log-reg-btn:hover{
+  background: #001e3b;
+}
+
+/*card*/
+.card{
+  border: 1px solid #05396b;
+}
+
+/*line with text*/
+.line {
+   width: 23em; 
+   text-align: center; 
+   border-bottom: 1px solid #05396b; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+   color: #05396b;
+} 
+span.txt { 
+    background: #5CDB95;
+    padding:0 10px; 
+}
+
+/*grey button*/
+.acc-btn{
+  background: #edf5e0;
+  border: none;
+  color: #05396b;
+  width: 23em;
+}
+.acc-btn:hover{
+  background: #d0d6c5;
+  border: none;
+  color: #05396b;
+}
+
