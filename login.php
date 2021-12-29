@@ -33,7 +33,7 @@
 						<div class="col-sm" style="width: 20em;">
 							<div class="form-group">
 					<label>Email Address</label>
-					<input type="email" class="form-control form-control-sm" aria-describedby="emailHelp" placeholder="test@test.com" required="required">
+					<input type="email" class="form-control form-control-sm" aria-describedby="emailHelp" placeholder="email@email.com" required="required">
 				</div>
 
 				<div class="form-group">
