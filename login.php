@@ -17,7 +17,7 @@
     <title>Login</title>
   </head>
 
-  <body>
+  <body class="noScroll">
 
 <a href="/Log-Reg-Site/index.php" class="d-flex justify-content-center mt-2">
 	<img src="/Log-Reg-Site/img/brand.png" alt="LOGO" style="width:5em; height:5em;">

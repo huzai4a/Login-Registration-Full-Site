@@ -11,8 +11,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Home page</title>
+    <!-- displays back to top btn in footer -->
+    <style>.footer-btn{display: block;}</style>
   </head>
-    <body>
+    <body style="height:200em;">
 
     <!-- navbar -->
     <nav>

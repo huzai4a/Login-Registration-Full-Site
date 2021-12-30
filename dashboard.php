@@ -33,6 +33,7 @@
         </p>
         <p><a href="/Log-Reg-Site/logout.php">Logout</a></p>
     </div>
+
  <?php require_once "inc/footer.php"; ?>
 
   </body>

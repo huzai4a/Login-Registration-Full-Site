@@ -22,7 +22,7 @@ input{
 nav{
     font-family: 'Poppins', sans-serif;
     padding: 0px 20px;
-    background: #edf5e0;
+    background: whitesmoke;
 }
 ul{
     list-style-type: none;
@@ -180,6 +180,10 @@ a:hover{
   nav{
     padding: 0px 20px;
   }
+  /*hide scrollbar on certain pages*/
+  body.noScroll{
+    overflow: hidden;
+  }
 }
 /*navbar end*/
 
@@ -231,7 +235,6 @@ span.txt {
 .footer{
   background: #edf5e0;
   color: #05396b;
-
   top: 100%;
   position: sticky;
 }
@@ -244,6 +247,7 @@ span.txt {
   border: none;
   color: #05396b;
   width: 100%;
+  display: none;
 }
 .footer-btn:hover{
   background: #d0d6c5;
