@@ -7,9 +7,13 @@
     margin: 0;
     padding: 0;
 }
+html{
+  height: 100%;
+}
 body{
     background-color: #5CDB95;
     font-family: 'Lato', sans-serif;
+    min-height: 100vh;
 }
 input{
   border: none;
@@ -193,6 +197,7 @@ a:hover{
 /*card*/
 .card{
   border: 1px solid #05396b;
+  background: #edf5e0;
 }
 
 /*line with text*/
@@ -222,3 +227,27 @@ span.txt {
   color: #05396b;
 }
 
+/*footer*/
+.footer{
+  background: #edf5e0;
+  color: #05396b;
+
+  top: 100%;
+  position: sticky;
+}
+.footer ul li{
+  display: inline-block;
+  padding: 10px 10px 0px 10px;
+}
+.footer-btn{
+  background: #d0d6c5;
+  border: none;
+  color: #05396b;
+  width: 100%;
+}
+.footer-btn:hover{
+  background: #d0d6c5;
+  border: none;
+  color: #05396b;
+  box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+}

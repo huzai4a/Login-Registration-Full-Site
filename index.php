@@ -3,7 +3,7 @@
     define('__CONFIG__', true);
     //require the config
     require_once "inc/config.php";
-    require_once "inc/footer.php";
+    require_once "inc/CDN.php";
     ?>
 <!DOCTYPE html>
 <html>
@@ -16,7 +16,7 @@
 
     <!-- navbar -->
     <nav>
-        <ul class="menu">
+        <ul class="menu" id="top">
             <li class="logo"><a href="/Log-Reg-Site/index.php"><img src="/Log-Reg-Site/img/brand.png" alt="..." style="width:2em; height:2em;"></a></li>
             <li class="item"><a href="/Log-Reg-Site/index.php">Home</a></li>
             <li class="item"><a href="#">Features</a></li>
@@ -46,5 +46,6 @@
  </div>
 </div>
 
+<?php require_once "inc/footer.php"; ?>
   </body>
 </html>

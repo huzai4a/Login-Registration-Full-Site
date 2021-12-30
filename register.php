@@ -5,7 +5,7 @@
     require_once "inc/config.php";
 
     Page::forceDashboard();
-    require_once "inc/footer.php";
+    require_once "inc/CDN.php";
     ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -55,13 +55,12 @@
 </div>
 </div>
 
-<div class="container-fluid d-flex justify-content-center">
+<div class="container-fluid d-flex flex-column align-items-center">
 		<h6 class="line"><span class="txt"> Already have an Account? </span></h6>
-</div>
+		<a role="button" class="btn acc-btn" href="/Log-Reg-Site/login.php">Login</a>
+</div>		
 
-<div class="container-fluid d-flex justify-content-center">
-		<a role="button" class="btn btn-primary acc-btn" href="/Log-Reg-Site/login.php">Login</a>
-</div>
 
+<?php require_once "inc/footer.php"; ?>
   </body>
 </html>

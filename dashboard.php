@@ -4,7 +4,7 @@
     define('__CONFIG__', true);
     //require the config
     require_once "inc/config.php";
-
+    require_once "inc/CDN.php";
     Page::forceLogin();
 
     $User = new User($_SESSION['user_id']);
@@ -33,7 +33,7 @@
         </p>
         <p><a href="/Log-Reg-Site/logout.php">Logout</a></p>
     </div>
- <?php require_once "inc/footer.php" ?>
+ <?php require_once "inc/footer.php"; ?>
 
   </body>
 </html>
