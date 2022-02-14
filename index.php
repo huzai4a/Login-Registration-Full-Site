@@ -34,15 +34,15 @@
 <div class="card round" style="height: 10em;">
     <div class="container-fluid mt-2">
         <h2> Dashboard </h2>
-    	<?php 
-	    	echo "Today is: "; 
+        <?php 
+            echo "Today is "; 
             date_default_timezone_set("America/Toronto");
-	    	echo date("Y m d, h i A");
-    	?>
-    	<p>
-    		<a href="/Log-Reg-Site/login.php"> Login </a>
-    		<a href="/Log-Reg-Site/register.php"> Register </a>
-    	</p>
+            echo date("F d, Y") . "<br>It is " . date("h i A");
+        ?>
+        <p>
+            <a href="/Log-Reg-Site/login.php"> Login </a>
+            <a href="/Log-Reg-Site/register.php"> Register </a>
+        </p>
 
     </div>
  </div>
@@ -51,3 +51,4 @@
 <?php require_once "inc/footer.php"; ?>
   </body>
 </html>
+
