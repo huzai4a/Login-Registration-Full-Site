@@ -254,3 +254,19 @@ span.txt {
   color: #05396b;
   box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
 }
+
+.animate{
+  animation-name: fadeIn;
+ animation-duration: 1s;
+ animation-iteration-count: 1;
+ animation-direction: normal;
+}
+
+@keyframes fadeIn{
+  from{
+    transform: translateX(-50px);
+  }
+  to{
+    transform: translateX(0px);
+  }
+}

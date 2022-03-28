@@ -30,7 +30,7 @@
     </nav>
 
 <!-- Card -->
-<div class="container-fluid pt-2 mb-3" style="width: 25em;">
+<div class="container-fluid pt-2 mb-3 animate" style="width: 25em;">
 <div class="card round" style="height: 10em;">
     <div class="container-fluid mt-2">
         <h2> Dashboard </h2>
