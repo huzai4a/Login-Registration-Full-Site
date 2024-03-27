@@ -10,14 +10,14 @@ class Page {
     static function forceLogin(){
         if(!isset($_SESSION['user_id'])) {
             //the user is not allowed here
-            header("Location: /Log-Reg-Site/login.php"); exit;
+            header("Location: /Login-Registration-Full-Site/login.php"); exit;
         }
     }
 
     static function forceDashboard(){
         if(isset($_SESSION['user_id'])) {
             //the user is not allowed here
-            header("Location: /Log-Reg-Site/dashboard.php"); exit;
+            header("Location: /Login-Registration-Full-Site/dashboard.php"); exit;
         }
     }    
 }

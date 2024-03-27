@@ -42,9 +42,9 @@ a:hover{
 .menu li a{
     display: block;
 }
-.logo{
+/* .logo{
 
-}
+} */
 .button.secondary{
     border-bottom: 1px #05396b solid;
 }
@@ -200,7 +200,7 @@ a:hover{
 /*card*/
 .card{
   border: 1px solid #05396b;
-  background: #edf5e0;
+  background: whitesmoke;
 }
 
 /*line with text*/
@@ -219,20 +219,20 @@ span.txt {
 
 /*grey button*/
 .acc-btn{
-  background: #edf5e0;
+  background: whitesmoke;
   border: none;
   color: #05396b;
   width: 23em;
 }
 .acc-btn:hover{
-  background: #d0d6c5;
+  background: rgb(219, 218, 218);
   border: none;
   color: #05396b;
 }
 
 /*footer*/
 .footer{
-  background: #edf5e0;
+  background: whitesmoke;
   color: #05396b;
   top: 100%;
   position: sticky;
@@ -242,14 +242,14 @@ span.txt {
   padding: 10px 10px 0px 10px;
 }
 .footer-btn{
-  background: #d0d6c5;
+  background: whitesmoke;
   border: none;
   color: #05396b;
   width: 100%;
   display: none;
 }
 .footer-btn:hover{
-  background: #d0d6c5;
+  background: rgb(229, 229, 229);
   border: none;
   color: #05396b;
   box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);

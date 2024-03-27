@@ -18,8 +18,8 @@
 	    if($user_found){
 	    	//user exists
 	    	//we can also check to see if they are able to login
-	    	// $return['error'] = "You already have an account. <a href='/Log-Reg-Site/login.php'>click here</a> to login.";
-	    	$return['error'] = "You already have an account. Please login.";
+	    	$return['error'] = "You already have an account. <a href='/Login-Registration-Full-Site/login.php'>click here</a> to login.";
+	    	//$return['error'] = "You already have an account. Please login.";
 	  		$return['is_logged_in'] = false;
 	    } else{
 	    	//user does not exist, add them now
@@ -35,11 +35,11 @@
 
 	    	$_SESSION['user_id'] = (int) $user_id;
 
-	  		$return['redirect'] = '/Log-Reg-Site/dashboard.php?message=welcome';
+	  		$return['redirect'] = '/Login-Registration-Full-Site/dashboard.php?message=welcome';
 	  		$return['is_logged_in'] = true;
 	    }
 
-	    $return['name'] = 'Huzaifa Syed';
+	    // $return['name'] = 'Huzaifa Syed';
 
 	    echo json_encode($return, JSON_PRETTY_PRINT); exit;
     } else{

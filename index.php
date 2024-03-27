@@ -19,12 +19,12 @@
     <!-- navbar -->
     <nav>
         <ul class="menu" id="top">
-            <li class="logo"><a href="/Log-Reg-Site/index.php"><img src="/Log-Reg-Site/img/brand.png" alt="..." style="width:2em; height:2em;"></a></li>
-            <li class="item"><a href="/Log-Reg-Site/index.php">Home</a></li>
+            <li class="logo"><a href="index.php"><img src="img\brand.png" alt="..." style="width:2em; height:2em;"></a></li>
+            <li class="item"><a href="index.php">Home</a></li>
             <li class="item"><a href="#">Features</a></li>
             <li class="item"><a href="#">Pricing</a></li>
-            <li class="item button"><a href="/Log-Reg-Site/login.php">Login</a></li>
-            <li class="item button secondary"><a href="/Log-Reg-Site/register.php">Sign Up</a></li>
+            <li class="item button"><a href="login.php">Login</a></li>
+            <li class="item button secondary"><a href="register.php">Sign Up</a></li>
             <li class="toggle"><span class="bars"></span></li>
         </ul>
     </nav>
@@ -40,8 +40,8 @@
             echo date("F d, Y") . "<br>It is " . date("h i A");
         ?>
         <p>
-            <a href="/Log-Reg-Site/login.php"> Login </a>
-            <a href="/Log-Reg-Site/register.php"> Register </a>
+            <a href="login.php"> Login </a>
+            <a href="register.php"> Register </a>
         </p>
 
     </div>

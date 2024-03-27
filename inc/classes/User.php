@@ -31,7 +31,7 @@ class User {
 		} else { 
 			//no user
 			//redirect to logout
-			header("Location: /Log-Reg-Site/logout.php"); exit;
+			header("Location: /Login-Registration-Full-Site/logout.php"); exit;
 		}
 	}
 

@@ -19,8 +19,8 @@
 
   <body class="noScroll">
 
-<a href="/Log-Reg-Site/index.php" class="d-flex justify-content-center mt-2">
-	<img src="/Log-Reg-Site/img/brand.png" alt="LOGO" style="width:5em; height:5em;">
+<a href="index.php" class="d-flex justify-content-center mt-2">
+	<img src="img\brand.png" alt="LOGO" style="width:5em; height:5em;">
 </a>
 
 <!-- Card -->
@@ -46,7 +46,7 @@
 				<!-- An element to toggle between password visibility -->
 				<input type="checkbox" onclick="myFunction()" class="mt-2"> Show Password<br>
 
-				<button type="submit" class="btn btn-primary mt-1 log-reg-btn mb-3">Login</button>
+				<button type="submit" class="btn mt-1 log-reg-btn mb-3">Login</button>
 			</div>
 		</form>
 	</div>
@@ -55,7 +55,7 @@
 
 <div class="container-fluid d-flex flex-column align-items-center">
 		<h6 class="line"><span class="txt"> New to the site? </span></h6>
-		<a role="button" class="btn acc-btn" href="/Log-Reg-Site/register.php">Create an Account</a>
+		<a role="button" class="btn acc-btn" href="register.php">Create an Account</a>
 </div>
 
 <?php require_once "inc/footer.php"; ?>

@@ -8,5 +8,5 @@
 		setcookie(session_name(),'',0,'/');
 		session_regenerate_id(true);
 
-		header("Location: /Log-Reg-Site/index.php");
+		header("Location: /Login-Registration-Full-Site/index.php"); exit;
 ?>

@@ -9,6 +9,7 @@ $(document)
 		email: $("input[type='email']", _form).val(),
 		password: $("input[type='password']", _form).val()
 	};
+	console.log(dataObj)
 
 	if (dataObj.email.length < 6) {
 		_error
@@ -29,7 +30,7 @@ $(document)
 	$.ajax ({
 		type: 'POST',
 		//wouldn't work unless I put the root of the folder here (i guess since i have other projects? idk)
-		url: '/Log-Reg-Site/ajax/register.php', 
+		url: '/Login-Registration-Full-Site/ajax/register.php', 
 		data: dataObj,
 		dataType: 'json',
 		async: true,
@@ -89,7 +90,7 @@ $(document)
 	$.ajax ({
 		type: 'POST',
 		//wouldn't work unless I put the root of the folder here (i guess since i have other projects? idk)
-		url: '/Log-Reg-Site/ajax/login.php', 
+		url: '/Login-Registration-Full-Site/ajax/login.php', 
 		data: dataObj,
 		dataType: 'json',
 		async: true,
@@ -98,6 +99,7 @@ $(document)
 		//whatever data is
 		if(data.redirect !== undefined){
 			window.location = data.redirect;
+			console.log(data.redirect)
 		} else if(data.error !== undefined){
 			_error
 				.html(data.error)

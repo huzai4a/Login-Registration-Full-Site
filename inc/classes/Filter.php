@@ -15,7 +15,7 @@ class Filter {
 	 */
 	public static function String( $string, $html = false ) {
 		if(!$html) {
-			$string = filter_var( $string , FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW);
+			$string = filter_var( $string , FILTER_SANITIZE_EMAIL, FILTER_FLAG_STRIP_LOW);
 		} else {
 			$string = filter_var( $string , FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 		}
